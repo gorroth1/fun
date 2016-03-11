@@ -6,10 +6,14 @@ var c= require("skilstak-colors");
 
 console.log(c.clear);
 
-for (var n = 1; n <= 12; n++) {
-console.log(n + c.multi(" Badger"));
+for (var e = Infinity;e == Infinity; e++) {
+  
+  for (var n = 1; n <= 12; n++) {
+    console.log(n + c.multi(" Badger"));
+  }
+
+  for (var m = 13; m <= 14; m++) {
+    console.log(m + c.multi(" Mushroom"));
+  }
 }
 
-for (var m = 13; m <= 14; m++) {
-  console.log(m + c.multi(" Mushroom"));
-}

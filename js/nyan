@@ -3,6 +3,6 @@ var c = require("skilstak-colors")
 'use strict'
 function nyan(meow) {
 while (true)
-  process.stdout.write(c.multi("Nyan " +  meow));
+  process.stdout.write(c.multi("Nyan " +  meow));   //Process.stdout.write is the same thing as console.log, just fancier
 }
 nyan(" Smells ")
